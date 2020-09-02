@@ -5,7 +5,7 @@ go 1.14
 require (
 	github.com/gogo/protobuf v1.3.1
 	github.com/google/gopacket v1.1.18
-	github.com/google/uuid v1.1.1
+	github.com/google/uuid v1.1.2
 	github.com/hashicorp/go-multierror v1.1.0
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/ipfs/go-cid v0.0.7
@@ -16,14 +16,14 @@ require (
 	github.com/ipfs/go-log v1.0.4
 	github.com/jbenet/goprocess v0.1.4
 	github.com/libp2p/go-eventbus v0.2.1
-	github.com/libp2p/go-libp2p v0.11.0
-	github.com/libp2p/go-libp2p-core v0.6.1
+	github.com/libp2p/go-libp2p v0.11.1-0.20200902221813-cfc12740f4ae
+	github.com/libp2p/go-libp2p-core v0.7.0
 	github.com/libp2p/go-libp2p-kbucket v0.4.7
 	github.com/libp2p/go-libp2p-peerstore v0.2.6
 	github.com/libp2p/go-libp2p-record v0.1.3
 	github.com/libp2p/go-libp2p-routing-helpers v0.2.3
-	github.com/libp2p/go-libp2p-swarm v0.2.8
-	github.com/libp2p/go-libp2p-testing v0.2.0
+	github.com/libp2p/go-libp2p-swarm v0.3.1
+	github.com/libp2p/go-libp2p-testing v0.3.0
 	github.com/libp2p/go-msgio v0.0.6
 	github.com/libp2p/go-netroute v0.1.3
 	github.com/multiformats/go-base32 v0.0.3
@@ -34,5 +34,5 @@ require (
 	github.com/stretchr/testify v1.6.1
 	github.com/whyrusleeping/go-keyspace v0.0.0-20160322163242-5b898ac5add1
 	go.opencensus.io v0.22.4
-	go.uber.org/zap v1.15.0
+	go.uber.org/zap v1.16.0
 )
